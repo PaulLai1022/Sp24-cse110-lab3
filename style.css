@@ -80,6 +80,15 @@ button {
 
 }
 
+.topic>a {
+    font-family: 'cursive';
+}
+
+.topic~a {
+    font-family: 'cursive';
+    font-size: 100px;
+}
+
 .oldTopic {
     margin-top: 15px;
     border: 1px solid hsl(39, 100%, 50%);
@@ -120,6 +129,16 @@ button {
     position: absolute;
     left: 50%;
 
+}
+
+.example h2~p {
+
+    color: blue;
+
+}
+
+.example2 h2+p {
+    color: blanchedalmond;
 }
 
 @media (min-width: 1200px) and (max-width: 400px) {
