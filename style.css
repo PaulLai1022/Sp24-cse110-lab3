@@ -94,6 +94,10 @@ button {
     border: 1px solid hsl(39, 100%, 50%);
 }
 
+.oldTopic h1:has(+ p) {
+    margin-bottom: 15em;
+}
+
 .todayTopic {
     margin-top: 15px;
     border: 1px solid blue;
