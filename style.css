@@ -116,7 +116,7 @@ button {
 }
 
 .topicDetail ul {
-    border: 1px solid color-mix(color1[ p1], color2[ p2])
+    border: 1px solid #abcdef;
 }
 
 .topicDetail ul:nth-child(3) {
