@@ -4,6 +4,16 @@
 
 }
 
+a[href='http: //example.com'] {
+    color: purple;
+}
+
+span,
+div {
+    border: lightcoral 2px solid;
+}
+
+
 
 header {
     display: flex;
@@ -22,6 +32,7 @@ header img {
 
 video {
     width: 20rem;
+    height: 10rem;
     margin-bottom: 2vw;
     display: block;
 }
@@ -87,6 +98,10 @@ button {
     position: relative;
 }
 
+.topicDetail h3:active {
+    color: green;
+}
+
 .topicDetail ul {
     border: 1px solid color-mix(method, color1[ p1], color2[ p2])
 }
@@ -107,13 +122,22 @@ button {
 
 }
 
+@media (min-width: 1200px) and (max-width: 400px) {
+
+    .topicDetail ul:nth-child(3) {
+        border-radius: 10%;
+        margin: 10px 10px 10px 10px;
+        color: yellowgreen;
+    }
+}
+
 footer {
     margin: auto;
     width: 270px;
     /*width must*/
 }
 
-footer h3 {}
+
 
 
 
