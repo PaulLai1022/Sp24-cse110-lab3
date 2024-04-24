@@ -7,6 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Meeting Minutes</title>
     <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+    <link rel="stylesheet" href="style.css">
+
 </head>
 
 <body>
@@ -14,42 +16,43 @@
     <header>
         <img src="Picture.png" alt="pic">
         <h1>Meeting Minutes for CSE 110</h1>
-        <h3>meeting time: 4/15/2024</h3>
-
-
+        <h3>Meeting time: 4/15/2024</h3>
+        <h3>Please <span>click</span> <button>Attend</button> button
+            here if you are presented to the meeting: </h3>
     </header>
 
     <hr>
 
     <section>
-        <details>
-            <summary>Rough Summary</summary>
-            This is the rough summary of today's meeting
-        </details>
-        <video controls>
-            <source src="meeting.mp4" type="video/mp4">
-            Your browser does not support the video tag.
-        </video>
 
 
-        <audio controls>
-            <source src="music.m4a" type="audio/ogg">
+        <div class='video'>
+            <details>
+                <summary>Rough Summary</summary>
+                This is the rough video summary of today's meeting
+            </details>
+            <video controls>
+                <source src="meeting.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
 
-            Your browser does not support the audio element.
-        </audio>
 
-        <div class='subTopicSection'>
-            <h3>Please <span>sign-up</span> here if you are presented to the meeting: </h3>
-            <h2>The following are the points we are going to discussed for this meeting</h2>
+            <audio controls>
+                <source src="music.m4a" type="audio/ogg">
+                Your browser does not support the audio element.
+            </audio>
         </div>
 
-        <nav>
-            <a href="#oldTopic">Old Topic</a> |
-            <a href="#todayTopic">Today's Topic</a> |
-            <a href="#topicDetail">Topic Detail</a> |
 
-        </nav>
         <hr>
+
+
+        <nav class='topic'>
+            <a href="#oldTopic">Old Topic</a>
+            <a href="#todayTopic">Today's Topic</a>
+            <a href="#topicDetail">Topic Detail</a>
+        </nav>
+
 
         <div class='oldTopic' id='oldTopic'>
             <h3>Old Topic Flash Back</h3>
@@ -71,6 +74,8 @@
 
         <div class='topicDetail' id='topicDetail'>
             <h3>Topic Detail</h3>
+            <img src="Picture.png" alt="pic">
+            <img src="Picture.png" alt="pic">
             <ul>
                 <li class='title'>1. Last Event Flash Back</li>
                 <li>We had a decent feedback from the participants</li>

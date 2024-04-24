@@ -1,0 +1,123 @@
+* {
+    font-family: 'Roboto', sans-serif;
+
+
+}
+
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+header img {
+    display: none;
+}
+
+.video summary {
+    margin-bottom: 2vh;
+}
+
+video {
+    width: 20rem;
+    margin-bottom: 2vw;
+    display: block;
+}
+
+button {
+
+    display: inline-block;
+    outline: none;
+    font-size: 12px;
+    line-height: 20px;
+    font-weight: 600;
+    border-radius: 8px;
+    padding: 5px 5px;
+    border: 1px solid #222222;
+    background: #fff;
+    color: #222222;
+
+}
+
+.video {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.topic {
+    display: flex;
+    flex-direction: column;
+}
+
+.topic a {
+    font-size: 2rem;
+    text-decoration: none;
+
+    color: rgb(238, 130, 238);
+}
+
+.topic a:hover {
+    color: aqua;
+}
+
+.topic a:hover:nth-child(1) {
+    color: aqua;
+
+}
+
+.oldTopic {
+    margin-top: 15px;
+    border: 1px solid hsl(39, 100%, 50%);
+}
+
+.todayTopic {
+    margin-top: 15px;
+    border: 1px solid blue;
+    padding: 10px 10px 10px 10px;
+}
+
+.topicDetail {
+    display: grid;
+    gap: 0.5rem;
+    grid-template-columns: 300px;
+    position: relative;
+}
+
+.topicDetail ul {
+    border: 1px solid color-mix(method, color1[ p1], color2[ p2])
+}
+
+.topicDetail ul:nth-child(3) {
+    border-radius: 20%;
+    margin: 25px 50px 75px 100px;
+}
+
+.topicDetail ul:nth-child(4) {
+    border-radius: 50%;
+
+}
+
+.topicDetail img {
+    position: absolute;
+    left: 50%;
+
+}
+
+footer {
+    margin: auto;
+    width: 270px;
+    /*width must*/
+}
+
+footer h3 {}
+
+
+
+
+
+
+/* CSS */
