@@ -95,7 +95,7 @@ button {
 }
 
 .oldTopic h1:has(+ p) {
-    margin-bottom: 15em;
+    color: beige;
 }
 
 .todayTopic {
@@ -162,6 +162,10 @@ footer {
 
 
 
+button {
+    background-color: blue;
+
+}
 
 
 
